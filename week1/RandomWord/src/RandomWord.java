@@ -2,9 +2,9 @@ import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
-public class Main {
+public class RandomWord {
     public static void main(String[] args) {
-        var championWord = (String)null;
+        var championWord = (String) null;
         var wordsCount = 0;
 
         while (!StdIn.isEmpty()) {
