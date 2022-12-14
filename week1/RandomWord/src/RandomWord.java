@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.StdRandom;
 
 public class RandomWord {
     public static void main(String[] args) {
-        var championWord = (String) null;
+        String championWord = null;
         var wordsCount = 0;
 
         while (!StdIn.isEmpty()) {
